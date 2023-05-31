@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "chefPicture": "url_to_chef_picture_1",
+      "chefPicture": "https://i.ibb.co/MCnNqjf/chef1.jpg",
       "chefName": "John Smith",
       "yearsOfExperience": 10,
       "numberOfRecipes": 150,
@@ -9,7 +9,7 @@
     },
     {
       "id": 2,
-      "chefPicture": "url_to_chef_picture_2",
+      "chefPicture": "https://i.ibb.co/Rbwvpsn/chef2.jpg",
       "chefName": "Emily Johnson",
       "yearsOfExperience": 7,
       "numberOfRecipes": 100,
@@ -17,7 +17,7 @@
     },
     {
       "id": 3,
-      "chefPicture": "url_to_chef_picture_3",
+      "chefPicture": "https://i.ibb.co/fGtKDY8/chef3.jpg",
       "chefName": "Michael Anderson",
       "yearsOfExperience": 15,
       "numberOfRecipes": 200,
@@ -25,7 +25,7 @@
     },
     {
       "id": 4,
-      "chefPicture": "url_to_chef_picture_4",
+      "chefPicture": "https://i.ibb.co/Trf4PzB/chef4.jpg",
       "chefName": "Sarah Thompson",
       "yearsOfExperience": 12,
       "numberOfRecipes": 180,
@@ -33,7 +33,7 @@
     },
     {
       "id": 5,
-      "chefPicture": "url_to_chef_picture_5",
+      "chefPicture": "https://i.ibb.co/T82sNYM/hef5.jpg",
       "chefName": "David Wilson",
       "yearsOfExperience": 8,
       "numberOfRecipes": 120,
@@ -41,7 +41,7 @@
     },
     {
       "id": 6,
-      "chefPicture": "url_to_chef_picture_6",
+      "chefPicture": "https://i.ibb.co/nLkBYmM/chef6.jpg",
       "chefName": "Jessica Davis",
       "yearsOfExperience": 5,
       "numberOfRecipes": 80,
