@@ -1,50 +1,284 @@
 [
-    {
-      "id": 1,
-      "chefPicture": "https://i.ibb.co/MCnNqjf/chef1.jpg",
-      "chefName": "John Smith",
-      "yearsOfExperience": 10,
-      "numberOfRecipes": 150,
-      "likes": 500
-    },
-    {
-      "id": 2,
-      "chefPicture": "https://i.ibb.co/Rbwvpsn/chef2.jpg",
-      "chefName": "Emily Johnson",
-      "yearsOfExperience": 7,
-      "numberOfRecipes": 100,
-      "likes": 350
-    },
-    {
-      "id": 3,
-      "chefPicture": "https://i.ibb.co/fGtKDY8/chef3.jpg",
-      "chefName": "Michael Anderson",
-      "yearsOfExperience": 15,
-      "numberOfRecipes": 200,
-      "likes": 800
-    },
-    {
-      "id": 4,
-      "chefPicture": "https://i.ibb.co/Trf4PzB/chef4.jpg",
-      "chefName": "Sarah Thompson",
-      "yearsOfExperience": 12,
-      "numberOfRecipes": 180,
-      "likes": 600
-    },
-    {
-      "id": 5,
-      "chefPicture": "https://i.ibb.co/T82sNYM/hef5.jpg",
-      "chefName": "David Wilson",
-      "yearsOfExperience": 8,
-      "numberOfRecipes": 120,
-      "likes": 400
-    },
-    {
-      "id": 6,
-      "chefPicture": "https://i.ibb.co/nLkBYmM/chef6.jpg",
-      "chefName": "Jessica Davis",
-      "yearsOfExperience": 5,
-      "numberOfRecipes": 80,
-      "likes": 250
-    }
-  ]
+  {
+    "id": "1",
+    "chefPicture": "https://i.ibb.co/MCnNqjf/chef1.jpg",
+    "chefName": "John Smith",
+    "yearsOfExperience": "10 years",
+    "numberOfRecipes": "150 items",
+    "likes": "500",
+    "bio": "John Smith is a seasoned chef with 10 years of experience in the culinary world. He has created 150 delicious recipes loved by many. With his expertise and passion for food, he continues to amaze people with his culinary creations.",
+    "recipes": [
+      {
+        "recipeName": "Green Curry Chicken",
+        "ingredients": [
+          "Chicken breast",
+          "Green curry paste",
+          "Coconut milk",
+          "Thai eggplant",
+          "Kaffir lime leaves"
+        ],
+        "cookingMethod": "1. Heat oil in a pan and add green curry paste. Cook until fragrant.\n2. Add chicken breast and cook until browned.\n3. Pour in coconut milk and bring to a simmer.\n4. Add Thai eggplant and kaffir lime leaves. Simmer until chicken is cooked through and vegetables are tender.",
+        "rating": "4.5 stars"
+      },
+      {
+        "recipeName": "Pad Thai",
+        "ingredients": [
+          "Rice noodles",
+          "Shrimp",
+          "Tofu",
+          "Bean sprouts",
+          "Peanuts"
+        ],
+        "cookingMethod": "1. Soak rice noodles in hot water until soft. Drain and set aside.\n2. Heat oil in a wok and add shrimp. Cook until pink.\n3. Push the shrimp to one side and add tofu to the empty space. Cook until lightly browned.\n4. Add soaked rice noodles and bean sprouts. Stir-fry until heated through.\n5. Serve garnished with peanuts.",
+        "rating": "4.2 stars"
+      },
+      {
+        "recipeName": "Tom Yum Soup",
+        "ingredients": [
+          "Shrimp",
+          "Lemongrass",
+          "Galangal",
+          "Kaffir lime leaves",
+          "Mushrooms"
+        ],
+        "cookingMethod": "1. Bring water to a boil in a pot and add lemongrass, galangal, and kaffir lime leaves. Simmer for 5 minutes.\n2. Add shrimp and mushrooms. Cook until shrimp is pink and cooked through.\n3. Season with fish sauce, lime juice, and chili paste. Simmer for an additional 2 minutes.\n4. Serve hot and garnish with cilantro leaves.",
+        "rating": "4.8 stars"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "chefPicture": "https://i.ibb.co/Rbwvpsn/chef2.jpg",
+    "chefName": "Michael Anderson",
+    "yearsOfExperience": "7 years",
+    "numberOfRecipes": "100 items",
+    "likes": "350",
+    "bio": "Michael Anderson is a talented chef who has been honing his skills for 7 years. He has a repertoire of 100 unique recipes that showcase his creativity and culinary prowess. His dedication to the art of cooking is evident in every dish he creates.",
+    "recipes": [
+      {
+        "recipeName": "Thai Basil Chicken",
+        "ingredients": [
+          "Chicken breast",
+          "Thai basil leaves",
+          "Fish sauce",
+          "Soy sauce",
+          "Chili peppers"
+        ],
+        "cookingMethod": "1. Heat oil in a pan and add minced garlic. Cook until fragrant.\n2. Add chicken breast and cook until browned.\n3. Stir in fish sauce, soy sauce, and chili peppers.\n4. Add Thai basil leaves and cook until wilted.\n5. Serve hot with steamed rice.",
+        "rating": "4.6 stars"
+      },
+      {
+        "recipeName": "Mango Sticky Rice",
+        "ingredients": [
+          "Sticky rice",
+          "Mango",
+          "Coconut milk",
+          "Sugar",
+          "Salt"
+        ],
+        "cookingMethod": "1. Rinse sticky rice and soak in water for 4 hours. Drain.\n2. Steam sticky rice for 20-25 minutes until tender.\n3. In a saucepan, heat coconut milk with sugar and salt. Stir until sugar dissolves.\n4. Remove from heat and let it cool.\n5. Serve sticky rice with sliced mangoes and drizzle coconut sauce on top.",
+        "rating": "4.4 stars"
+      },
+      {
+        "recipeName": "Red Curry Beef",
+        "ingredients": [
+          "Beef",
+          "Red curry paste",
+          "Coconut milk",
+          "Bamboo shoots",
+          "Thai basil leaves"
+        ],
+        "cookingMethod": "1. Heat oil in a pan and add red curry paste. Cook until fragrant.\n2. Add beef and cook until browned.\n3. Pour in coconut milk and bring to a simmer.\n4. Add bamboo shoots and cook until beef is tender.\n5. Stir in Thai basil leaves and simmer for a few more minutes.\n6. Serve hot with steamed rice.",
+        "rating": "4.3 stars"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "chefPicture": "https://i.ibb.co/fGtKDY8/chef3.jpg",
+    "chefName": "Emily Johnson",
+    "yearsOfExperience": "15 years",
+    "numberOfRecipes": "200 items",
+    "likes": "800",
+    "bio": "Emily Johnson is a renowned chef with an impressive 15 years of experience. She has crafted 200 exquisite recipes that have garnered immense popularity. Her passion for cooking shines through in her culinary masterpieces.",
+    "recipes": [
+      {
+        "recipeName": "Tom Kha Gai",
+        "ingredients": [
+          "Chicken",
+          "Coconut milk",
+          "Galangal",
+          "Lemongrass",
+          "Mushrooms"
+        ],
+        "cookingMethod": "1. In a pot, bring coconut milk to a simmer.\n2. Add galangal and lemongrass. Simmer for 5 minutes.\n3. Add chicken and mushrooms. Cook until chicken is done.\n4. Season with fish sauce and lime juice. Remove from heat.\n5. Serve hot and garnish with cilantro leaves.",
+        "rating": "4.7 stars"
+      },
+      {
+        "recipeName": "Green Papaya Salad",
+        "ingredients": [
+          "Green papaya",
+          "Cherry tomatoes",
+          "Green beans",
+          "Fish sauce",
+          "Lime juice"
+        ],
+        "cookingMethod": "1. Shred green papaya and soak in cold water for 10 minutes. Drain.\n2. In a bowl, combine green papaya, cherry tomatoes, and green beans.\n3. In a separate bowl, mix fish sauce, lime juice, and sugar.\n4. Pour the dressing over the salad and toss well.\n5. Serve chilled and garnish with crushed peanuts.",
+        "rating": "4.5 stars"
+      },
+      {
+        "recipeName": "Massaman Curry",
+        "ingredients": [
+          "Beef",
+          "Massaman curry paste",
+          "Coconut milk",
+          "Potatoes",
+          "Peanuts"
+        ],
+        "cookingMethod": "1. Heat oil in a pan and add massaman curry paste. Cook until fragrant.\n2. Add beef and cook until browned.\n3. Pour in coconut milk and bring to a simmer.\n4. Add potatoes and simmer until beef is tender.\n5. Stir in peanuts and simmer for a few more minutes.\n6. Serve hot with steamed rice.",
+        "rating": "4.9 stars"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "chefPicture": "https://images.prestigeonline.com/wp-content/uploads/sites/8/2021/08/11233616/food-diner-49-1024x795.jpg",
+    "chefName": "Sarah Thompson",
+    "yearsOfExperience": "12 years",
+    "numberOfRecipes": "180 items",
+    "likes": "600",
+    "bio": "Sarah Thompson is a highly skilled chef who has dedicated 12 years to perfecting her craft. She has created 180 delectable recipes that have earned her widespread acclaim. Her commitment to quality and innovation is evident in her culinary creations.",
+    "recipes": [
+      {
+        "recipeName": "Panang Curry",
+        "ingredients": [
+          "Chicken",
+          "Panang curry paste",
+          "Coconut milk",
+          "Kaffir lime leaves",
+          "Thai basil leaves"
+        ],
+        "cookingMethod": "1. Heat oil in a pan and add panang curry paste. Cook until fragrant.\n2. Add chicken and cook until browned.\n3. Pour in coconut milk and bring to a simmer.\n4. Add kaffir lime leaves and simmer until chicken is cooked through.\n5. Stir in Thai basil leaves and simmer for a few more minutes.\n6. Serve hot with steamed rice.",
+        "rating": "4.6 stars"
+      },
+      {
+        "recipeName": "Thai Green Papaya Salad",
+        "ingredients": [
+          "Green papaya",
+          "Carrots",
+          "Long beans",
+          "Cherry tomatoes",
+          "Palm sugar"
+        ],
+        "cookingMethod": "1. Shred green papaya and carrots into thin strips.\n2. In a mortar, pound long beans until lightly crushed.\n3. Add cherry tomatoes and lightly pound to release flavors.\n4. Add palm sugar, lime juice, and fish sauce. Mix well.\n5. Add shredded papaya and carrots. Toss to combine.\n6. Serve chilled and garnish with roasted peanuts.",
+        "rating": "4.4 stars"
+      },
+      {
+        "recipeName": "Thai Pineapple Fried Rice",
+        "ingredients": [
+          "Cooked rice",
+          "Shrimp",
+          "Pineapple",
+          "Cashew nuts",
+          "Curry powder"
+        ],
+        "cookingMethod": "1. Heat oil in a wok and add shrimp. Cook until pink.\n2. Push the shrimp to one side and add cooked rice to the empty space. Stir-fry for a few minutes.\n3. Add pineapple chunks, cashew nuts, and curry powder. Stir-fry to combine.\n4. Season with fish sauce and soy sauce. Stir-fry for another minute.\n5. Serve hot and garnish with chopped green onions.",
+        "rating": "4.3 stars"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "chefPicture": "https://images.prestigeonline.com/wp-content/uploads/sites/8/2023/05/15180739/Chef-Paolo-Griffa.jpg?tr=w-1366",
+    "chefName": "David Wilson",
+    "yearsOfExperience": "8 years",
+    "numberOfRecipes": "120 items",
+    "likes": "400",
+    "bio": "David Wilson is a talented chef with 8 years of experience in the culinary industry. He has curated a collection of 120 unique recipes that showcase his culinary expertise. His innovative approach and attention to detail set him apart in the culinary world.",
+    "recipes": [
+      {
+        "recipeName": "Thai Coconut Soup",
+        "ingredients": [
+          "Chicken",
+          "Coconut milk",
+          "Mushrooms",
+          "Galangal",
+          "Lime juice"
+        ],
+        "cookingMethod": "1. In a pot, bring coconut milk to a simmer.\n2. Add galangal and mushrooms. Simmer for 5 minutes.\n3. Add chicken and cook until done.\n4. Season with fish sauce and lime juice. Remove from heat.\n5. Serve hot and garnish with cilantro leaves.",
+        "rating": "4.7 stars"
+      },
+      {
+        "recipeName": "Thai Cashew Chicken",
+        "ingredients": [
+          "Chicken",
+          "Cashew nuts",
+          "Bell peppers",
+          "Onions",
+          "Soy sauce"
+        ],
+        "cookingMethod": "1. Heat oil in a pan and add chicken. Cook until browned.\n2. Add cashew nuts and stir-fry for a minute.\n3. Add bell peppers and onions. Stir-fry until vegetables are tender-crisp.\n4. Season with soy sauce and oyster sauce. Stir-fry for another minute.\n5. Serve hot with steamed rice.",
+        "rating": "4.5 stars"
+      },
+      {
+        "recipeName": "Thai Mango Salad",
+        "ingredients": [
+          "Mango",
+          "Red onion",
+          "Cilantro",
+          "Roasted peanuts",
+          "Lime juice"
+        ],
+        "cookingMethod": "1. Slice mango into thin strips.\n2. In a bowl, combine mango, red onion, and cilantro.\n3. In a separate bowl, mix lime juice, fish sauce, and sugar.\n4. Pour the dressing over the salad and toss well.\n5. Serve chilled and garnish with roasted peanuts.",
+        "rating": "4.3 stars"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "chefPicture": "https://i.ibb.co/nLkBYmM/chef6.jpg",
+    "chefName": "Jessica Davis",
+    "yearsOfExperience": "5 years",
+    "numberOfRecipes": "80 items",
+    "likes": "250",
+    "bio": "Jessica Davis is a passionate chef who has been refining her skills for 5 years. She has developed 80 delightful recipes loved by many. Her dedication to creating memorable dining experiences is evident in her culinary creations.",
+    "recipes": [
+      {
+        "recipeName": "Thai Basil Beef",
+        "ingredients": [
+          "Beef",
+          "Thai basil leaves",
+          "Garlic",
+          "Chili peppers",
+          "Oyster sauce"
+        ],
+        "cookingMethod": "1. Heat oil in a pan and add minced garlic and chili peppers. Cook until fragrant.\n2. Add beef and cook until browned.\n3. Stir in oyster sauce and a splash of water.\n4. Add Thai basil leaves and cook until wilted.\n5. Serve hot with steamed rice.",
+        "rating": "4.6 stars"
+      },
+      {
+        "recipeName": "Thai Red Curry Shrimp",
+        "ingredients": [
+          "Shrimp",
+          "Red curry paste",
+          "Coconut milk",
+          "Bamboo shoots",
+          "Bell peppers"
+        ],
+        "cookingMethod": "1. Heat oil in a pan and add red curry paste. Cook until fragrant.\n2. Add shrimp and cook until pink.\n3. Pour in coconut milk and bring to a simmer.\n4. Add bamboo shoots and bell peppers. Simmer until vegetables are tender.\n5. Serve hot with steamed rice.",
+        "rating": "4.4 stars"
+      },
+      {
+        "recipeName": "Thai Pineapple Chicken Curry",
+        "ingredients": [
+          "Chicken",
+          "Pineapple",
+          "Red curry paste",
+          "Coconut milk",
+          "Basil leaves"
+        ],
+        "cookingMethod": "1. Heat oil in a pan and add red curry paste. Cook until fragrant.\n2. Add chicken and cook until browned.\n3. Pour in coconut milk and bring to a simmer.\n4. Add pineapple chunks and simmer until chicken is cooked through.\n5. Stir in basil leaves and simmer for a few more minutes.\n6. Serve hot with steamed rice.",
+        "rating": "4.3 stars"
+      }
+    ]
+  }
+]
